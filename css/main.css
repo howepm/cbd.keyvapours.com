@@ -1,0 +1,210 @@
+html, body, h1, h2, h3, h4, h5, p, .reset, .noPad, .noMargin {
+  margin: 0px;
+  padding: 0px; }
+
+html {
+  border-top: #659f48 15px solid;
+  border-bottom: #659f48 35px solid;
+  background-color: #659f48; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 12pt;
+  display: block;
+  background-color: white; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #6b924b;
+  font-weight: bold; }
+  a img {
+    border: 0px; }
+
+a:hover {
+  color: #46632f; }
+
+#container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto; }
+  #container header {
+    margin-bottom: 25px; }
+    #container header #logoArea, #container header #navigation {
+      display: inline-block; }
+    #container header #logoArea {
+      float: left;
+      background-color: #659f48;
+      width: 20%;
+      padding: 10px;
+      text-align: center;
+      border-bottom-right-radius: 15px;
+      border-bottom-left-radius: 15px; }
+      #container header #logoArea img {
+        max-width: 80%; }
+    #container header #navigation {
+      text-align: center;
+      float: right;
+      width: 75%;
+      margin-top: 25px;
+      background-color: #659f48;
+      border-radius: 10px; }
+      #container header #navigation a {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 10px;
+        color: white; }
+        #container header #navigation a .fa {
+          color: #c8c8c8; }
+      #container header #navigation a:hover {
+        color: #a7c98b; }
+        #container header #navigation a:hover .fa {
+          color: #b4b4b4; }
+  #container .sy-slides-wrap {
+    border: 3px solid #659f48;
+    border-radius: 10px; }
+  #container #keyCBD {
+    background-color: #231f20;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    color: #c4ab6f; }
+    #container #keyCBD .title {
+      color: #997725; }
+    #container #keyCBD img {
+      float: left;
+      margin-right: 15px; }
+  #container .thirds {
+    text-align: center;
+    vertical-align: top; }
+    #container .thirds .third {
+      display: inline-block;
+      vertical-align: top;
+      width: 30%;
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: left; }
+      #container .thirds .third .pic {
+        width: 20%;
+        float: left; }
+        #container .thirds .third .pic img {
+          max-width: 95%;
+          margin-top: 20px;
+          display: block;
+          margin-left: auto;
+          margin-right: auto; }
+      #container .thirds .third .info {
+        width: 75%;
+        float: right;
+        color: #3f5a17; }
+        #container .thirds .third .info .title {
+          font-size: 18pt;
+          color: #597038; }
+        #container .thirds .third .info .learnMore {
+          color: #588e12; }
+        #container .thirds .third .info .learnMore:hover {
+          color: #3b600b; }
+  #container footer {
+    background-color: #659f48;
+    padding-bottom: 20px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px; }
+    #container footer a {
+      color: #ccffb6; }
+    #container footer a:hover {
+      color: #98c982; }
+    #container footer .logo, #container footer .middleInfo, #container footer .links {
+      display: inline-block; }
+    #container footer .logo {
+      float: left;
+      width: 20%; }
+      #container footer .logo img {
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px; }
+      #container footer .logo .smallLogos {
+        text-align: center; }
+        #container footer .logo .smallLogos a {
+          display: inline-block; }
+        #container footer .logo .smallLogos img {
+          max-width: 85%; }
+    #container footer .middleInfo {
+      float: left;
+      width: 50%; }
+      #container footer .middleInfo .bubble {
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 10px;
+        background-color: #d1edb8; }
+        #container footer .middleInfo .bubble .bubbleLink {
+          color: #52833d !important; }
+        #container footer .middleInfo .bubble .bubbleLink:hover {
+          color: #315322 !important; }
+        #container footer .middleInfo .bubble .facebook {
+          display: inline-block;
+          margin-left: 5px;
+          margin-right: 5px;
+          text-align: right;
+          height: 26px;
+          width: 20px;
+          padding-left: 5px;
+          padding-right: 5px;
+          padding-top: 4px;
+          color: white;
+          background-color: #154688;
+          border-radius: 5px; }
+      #container footer .middleInfo .tail {
+        margin-left: 25px;
+        height: 20px;
+        width: 30px;
+        background-color: #d1edb8;
+        border-bottom-right-radius: 10px; }
+        #container footer .middleInfo .tail .inner {
+          background-color: #659f48;
+          width: 15px;
+          height: 20px;
+          border-bottom-right-radius: 25px; }
+    #container footer .links {
+      float: left;
+      width: 30%; }
+      #container footer .links .title {
+        font-size: 16pt; }
+      #container footer .links a {
+        display: block;
+        color: #29411f; }
+        #container footer .links a .fa {
+          color: #436733; }
+      #container footer .links a:hover {
+        color: #152d0b; }
+        #container footer .links a:hover .fa {
+          color: #4c8732; }
+  #container #ourBrands {
+    text-align: center; }
+    #container #ourBrands .title {
+      font-size: 16pt;
+      color: #659f48; }
+    #container #ourBrands .byLine {
+      font-size: 10pt; }
+    #container #ourBrands img {
+      height: 100px;
+      margin: 10px; }
+
+.pad {
+  padding: 10px; }
+
+.clear {
+  clear: both; }
+
+/*# sourceMappingURL=main.css.map */
